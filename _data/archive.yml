@@ -1,9 +1,9 @@
 - type: dates
-  title: Dates
+  title: 아카이브(Dates)
   url: /dates/
 #- type: categories
 #  title: Categories
 #  url: /categories/
 - type: tags
-  title: Tags
+  title: 태그(Tags)
   url: /tags/

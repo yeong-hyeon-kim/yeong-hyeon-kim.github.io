@@ -5,8 +5,8 @@ layout: default
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-meta">
-    {%- assign date_format = site.date_format | default: "%-d %b %Y" -%}
-    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>
+    {%- assign date_format = site.date_format | default: "%Y-%m-%d" -%}
+    <time datetime="{{ page.date | date:'%Y-%m-%d' }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>
     {%- if page.last_modified_at -%}
       <span> ~ </span>
       {%- assign mdate = page.last_modified_at | date_to_xmlschema -%}
@@ -44,7 +44,7 @@ layout: default
       <li>
         <a href="{{ post.url | relative_url }}">
           {{ post.title }}
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:'%Y년 %m월 %d일' }}</time></small>
         </a>
       </li>
     {% endfor %}
