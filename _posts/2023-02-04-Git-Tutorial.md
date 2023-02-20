@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "깃(Git) 튜토리얼"
+title:  "깃(Git) - 튜토리얼"
 crawlertitle: "Tutorial Git"
 summary: "Tutorial Git "
 date:   2023-02-04 10:00:00 +0900
