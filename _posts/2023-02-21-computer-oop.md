@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "객체 지향 프로그래밍 - OOP(Object Oriented Programming)"
+title:  "객체 지향 프로그래밍(OOP) - Object Oriented Programming"
 crawlertitle: "About OOP"
 summary: "About OOP"
 date:   2023-02-21 17:00:00 +0900
